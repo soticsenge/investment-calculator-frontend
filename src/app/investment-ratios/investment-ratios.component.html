@@ -1,17 +1,37 @@
-<h2>Investment Data</h2>
-<ul class="heroes">
-  <li *ngFor="let investment of investments">
-    <span class="badge">{{investment.id}}</span> {{investment.city}}
-    <span class="badge">{{investment.ratio}}</span>
-    <span class="badge">{{investment.averageSalePrice}}</span> {{investment.averageRentPrice}}
-  </li>
-</ul>
-
-<div style="height:700px; width:700px"
-     leaflet
-     [leafletOptions]="options" [leafletLayers]="layers"
-     [(leafletZoom)]="zoom"
-     [(leafletCenter)]="center">
+<div class="container-fluid p-0">
+  <div class="row h-100 no-gutters">
+    <div class="col col-landscape-8-portrait-12">
+      <div class="map-container"
+           leaflet
+           [leafletOptions]="options"
+           [leafletLayers]="layers"
+           [(leafletZoom)]="zoom"
+           [(leafletCenter)]="center">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-container">
+        <div class="card" *ngFor="let investment of investments">
+          <div class="card-body text-center">
+            <img src="https://loremflickr.com/320/240" class="card-img-top" alt="...">
+            <div class="card-text-container">
+              <span class="card-text">Budapest, IX.kerület</span><br/>
+              <span class="card-text">Ifjúmunkás utca 32.</span>
+            </div>
+          </div>
+          <div class="card-footer text-center">
+            <div class="icons">
+              <button class="btn"><i class="fa fa-info"></i></button>
+              <button class="btn"><i class="fa fa-map-marker"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
 
 

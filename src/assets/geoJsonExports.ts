@@ -1,0 +1,25 @@
+import * as d1 from './GeoJSON/l40-district/001-budapest-01-kerulet';
+import * as d2 from './GeoJSON/l40-district/002-budapest-02-kerulet';
+import * as d3 from './GeoJSON/l40-district/003-budapest-03-kerulet';
+import * as d4 from './GeoJSON/l40-district/004-budapest-04-kerulet';
+import * as d5 from './GeoJSON/l40-district/005-budapest-05-kerulet';
+import * as d6 from './GeoJSON/l40-district/006-budapest-06-kerulet';
+import * as d7 from './GeoJSON/l40-district/007-budapest-07-kerulet';
+import * as d8 from './GeoJSON/l40-district/008-budapest-08-kerulet';
+import * as d9 from './GeoJSON/l40-district/009-budapest-09-kerulet';
+import * as d10 from './GeoJSON/l40-district/010-budapest-10-kerulet';
+import * as d11 from './GeoJSON/l40-district/011-budapest-11-kerulet';
+import * as d12 from './GeoJSON/l40-district/012-budapest-12-kerulet';
+import * as d13 from './GeoJSON/l40-district/013-budapest-13-kerulet';
+import * as d14 from './GeoJSON/l40-district/014-budapest-14-kerulet';
+import * as d15 from './GeoJSON/l40-district/015-budapest-15-kerulet';
+import * as d16 from './GeoJSON/l40-district/016-budapest-16-kerulet';
+import * as d17 from './GeoJSON/l40-district/017-budapest-17-kerulet';
+import * as d18 from './GeoJSON/l40-district/018-budapest-18-kerulet';
+import * as d19 from './GeoJSON/l40-district/019-budapest-19-kerulet';
+import * as d20 from './GeoJSON/l40-district/020-budapest-20-kerulet';
+import * as d21 from './GeoJSON/l40-district/021-budapest-21-kerulet';
+import * as d22 from './GeoJSON/l40-district/022-budapest-22-kerulet';
+import * as d23 from './GeoJSON/l40-district/023-budapest-23-kerulet';
+
+export const geoData = [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21, d22, d23 ];
