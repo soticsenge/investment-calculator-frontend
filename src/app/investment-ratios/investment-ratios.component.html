@@ -1,0 +1,17 @@
+<h2>Investment Data</h2>
+<ul class="heroes">
+  <li *ngFor="let investment of investments">
+    <span class="badge">{{investment.id}}</span> {{investment.city}}
+    <span class="badge">{{investment.ratio}}</span>
+    <span class="badge">{{investment.averageSalePrice}}</span> {{investment.averageRentPrice}}
+  </li>
+</ul>
+
+<div style="height:700px; width:700px"
+     leaflet
+     [leafletOptions]="options" [leafletLayers]="layers"
+     [(leafletZoom)]="zoom"
+     [(leafletCenter)]="center">
+</div>
+
+
